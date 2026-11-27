@@ -8,11 +8,11 @@ Automated traffic enforcement and smart parking access control systems require a
 ## Team Roles & Responsibilities
 | Role | Team Member | GitHub Username | Primary Modules |
 | :--- | :--- | :--- | :--- |
-| **Tech Lead, Data & Baselines** | Omar Abed | `@your-username` | `data.py`, `metrics.py`, `pipeline.py`, `configs/` |
-| **Enhancement Engineer** | Member 2 | `@member2-username` | `enhancement.py` |
-| **Restoration & Frequency Engineer** | Member 3 | `@member3-username` | `restoration.py`, `frequency.py` |
-| **Segmentation Engineer** | Member 4 | `@member4-username` | `segmentation.py` |
-| **Morphology & Evaluation Engineer** | Member 5 | `@member5-username` | `morphology.py`, `evaluate.py`, `run_pipeline.py`, `app/` |
+| **Tech Lead, Data & Baselines** | Omar Radwan | Omar-Radwan23 | `data.py`, `metrics.py`, `pipeline.py`, `configs/` |
+| **Enhancement Engineer** | Omar Elhalwany | omar1-elhalawany | `enhancement.py` |
+| **Restoration & Frequency Engineer** | Omar Othman | `@member3-username` | `restoration.py`, `frequency.py` |
+| **Segmentation Engineer** | Mostafa Reda | ENG-Mostafa-Reda | `segmentation.py` |
+| **Morphology & Evaluation Engineer** | Mohamed Tarek | mohamedtttt | `morphology.py`, `evaluate.py`, `run_pipeline.py`, `app/` |
 
 ## Repository Structure
 ```text
