@@ -2,8 +2,8 @@
 
 # Classical Image Processing Pipeline for Car License Plate Detection
 
-## Problem Formulation
-Automated vehicle identification relies on accurately localizing license plates under real-world surveillance conditions, including varying illumination, shadows, perspective distortion, and background clutter. This project implements a purely classical, modular image processing pipeline—using zero machine learning or deep learning—to detect and localize license plate bounding boxes on the **Car License Plate Dataset** (433 images, 471 annotated plates). Detection performance is evaluated primarily via **Intersection over Union (IoU)** against ground-truth bounding boxes.
+## Problem Formulation:
+Automated traffic enforcement and smart parking access control systems require accurate localization of vehicle license plates from surveillance camera imagery. Given an input RGB vehicle image (8-bit depth per channel, varying spatial resolutions), the classical image processing pipeline outputs bounding-box coordinates $(x_{\min}, y_{\min}, x_{\max}, y_{\max})$ surrounding each license plate. An inaccurate localization—either cropping out plate characters or including excessive background clutter—causes downstream optical character recognition (OCR) failures, leading to unauthorized gate access or missed traffic violations. Consequently, Intersection over Union (IoU) is selected as the primary evaluation metric because it simultaneously penalizes missed plate regions and oversized bounding boxes.
 
 ## Team Roles & Responsibilities
 | Role | Team Member | GitHub Username | Primary Modules |
