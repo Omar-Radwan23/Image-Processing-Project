@@ -1,0 +1,15 @@
+# Ignore dataset files and archives
+data/raw/
+data/processed/
+*.png
+*.jpg
+*.jpeg
+*.zip
+*.tar
+*.gz
+
+# Ignore Python & Jupyter cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
